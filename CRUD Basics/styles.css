@@ -1,0 +1,32 @@
+.container{
+    height: 500px;
+    width: 800px;
+    margin: 8rem 6rem 6rem 16rem;
+    /* background-color: aqua; */
+   display: flex;
+   
+}
+
+.right{
+    margin-left: 6rem;
+     /* background-color: aqua; */
+     height: 450px;
+     width: 600px;
+     /* display: flex; */
+    }
+    
+.post-btn{
+    order: 80;
+    flex: 1;
+    
+}
+.options{
+    display: flex;
+    gap: 25px;
+}
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
