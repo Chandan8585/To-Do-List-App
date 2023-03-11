@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+h1{
+    margin-right: 10rem;
+}
+ button{
+    display: flex;
+    border: 1px solid black;
+    height: 7vh;
+    width: 20vw; 
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    border: 5px solid green;
+    border-radius: 6px;
+    background-color: lightgreen;
+    font-weight: bold;
+}
+i{
+    margin: 12px;
+}
+.container{
+    height: 600px !important;
+    width: 400px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid green;
+    border-radius: 6px;
+    margin-top: 4rem;
+}
+.lower{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.task{
+    text-align: center;
+}
+.lower .task{
+   /* border-color: solid black; */
+    border: 1px solid black;
+    height: 20vh;
+    width: 20vw;   
+    border: 5px solid green;
+    border-radius: 6px; 
+    margin-bottom: 2rem;
+    background-color: lightgreen;
+}
+.modal-footer{
+    display: flex !important;
+    flex-direction: row !important;
+}
